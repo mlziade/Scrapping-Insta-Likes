@@ -1,3 +1,7 @@
+# Instagram Scrapper
+
+This is a tool I vibe coded to scrape information from a series of Instagram posts for a Marketing MBA student, enabling them to analyze the data for their thesis.
+
 ## Usage
 
 1.  **Launch Chrome with Remote Debugging:** Start Chrome with remote debugging enabled.
