@@ -24,3 +24,9 @@ The `instagram_posts.csv` file will contain the following columns:
 *   `scrape_date` (when the data was scraped)
 
 This approach leverages an existing browser session to bypass Instagram's login requirements and handles various like/comment count formats (e.g., "744K").
+
+```
+This approach leverages an existing browser session to bypass Instagram's login requirements and handles various like/comment count formats (e.g., "744K").
+
+**Note:** This code was written and used on 21/04/2025. It will probably break soon.
+```
