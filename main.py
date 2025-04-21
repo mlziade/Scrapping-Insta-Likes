@@ -14,8 +14,8 @@ def parse_meta_description(description):
     print(f"Raw description: {description}")
     
     # Extract likes
-    likes_match1 = re.search(r'([\d,.]+[KM]?)\s+likes', description)
-    likes_match2 = re.search(r'"like_count":\s*([\d,.]+),', description)
+    likes_match1 = re.search(r'"like_count":\s*([\d,.]+),', description)
+    likes_match2 = re.search(r'([\d,.]+[KM]?)\s+likes', description)
     likes_str = likes_match1.group(1) if likes_match1 else (likes_match2.group(1) if likes_match2 else "0")
     
     # Extract comments
